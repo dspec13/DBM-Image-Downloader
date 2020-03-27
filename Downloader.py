@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Author: dspec13
+# Date: 27 March 2020 
+
 from urllib2 import urlopen
 from urllib import urlretrieve
 from bs4 import BeautifulSoup
