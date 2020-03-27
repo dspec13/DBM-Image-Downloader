@@ -12,7 +12,7 @@ for x in range(0, 1715):
 
         # Page 9 & 21 are non-existent (pages 8 and 20 are horizontal)
         # Page 1000 is special. Go to this link to choose yourself: https://www.dragonball-multiverse.com/en/page-1000.html#h_read
-        if x != 9 and x != 21 and x != 1000
+        if x != 9 and x != 21 and x != 1000:
                 # Save the HTML as a BeautifulSoup Object
                 websiteToSearch = "https://www.dragonball-multiverse.com/en/page-%d.html#h_read" % x
                 content = urlopen(websiteToSearch)
