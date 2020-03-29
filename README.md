@@ -1,5 +1,5 @@
 # DBM-Image-Downloader
-This is a short python script to download all of the pages of [Dragon Ball Multiverse](https://www.dragonball-multiverse.com/) (as of 27 March 2020) to be imported into my Kindle using [Kindle Comic Converter](https://kcc.iosphe.re/) & [Calibre](https://calibre-ebook.com/).
+This is a short python script to download all of the pages of [Dragon Ball Multiverse](https://www.dragonball-multiverse.com/) (as of 27 March 2020) to be imported into my Kindle using [Kindle Comic Converter](https://kcc.iosphe.re/) & [Calibre](https://calibre-ebook.com/). You can see the page quality on my Kindle Paperwhtie [here](https://imgur.com/a/RsKLo5P).
 
 ## If You Are Reading This In The Future...
 ... I am probably dead (Just Kidding!). But I doubt that I'll be updating this any further. As of now there are 1714 pages published in Dragonball Multiverse. If more pages have been published since the time I wrote this and now, just open the Downloader script with any text editor & change the value of the variable _currentNumberOfPagesPublished_ to the current number of pages published. Enjoy Reading!
