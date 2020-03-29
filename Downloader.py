@@ -1,13 +1,29 @@
 #!/usr/bin/env python
 
 # Author: dspec13
-# Date: 27 March 2020 
+# Date: 28 March 2020 
 
 import os
 import errno
 from urllib2 import urlopen
 from urllib import urlretrieve
 from bs4 import BeautifulSoup
+
+print "     _                             _           _ _     __     __ "
+print "    | |                           | |         | | |   |  \\   /  |"
+print "  __| |_ __ __ _  __ _  ___  _ __ | |__   __ _| | |   |   \\ /   |"
+print " / _` | '__/ _` |/ _` |/ _ \\| '_ \\| '_ \\ / _` | | |   |  |` `|  |"
+print "| (_| | | | (_| | (_| | (_) | | | | |_) | (_| | | |   |  |   |  |"
+print " \\__,_|_|  \\__,_|\\__, |\\___/|_| |_|_.__/ \\__,_|_|_|   |__|   |__|"
+print "                  __/ |"                            
+print "                 |___/"                       
+print "     ____                      _                 _"
+print "    |  _ \\  __ __      _ _ __ | | ___   __ _  __| | ___  _ __ "
+print "    | | | |/ _ \\ \\ /\\ / | '_ \\| |/ _ \\ / _` |/ _` |/ _ \\| '__| " 
+print "    | |_| | (_)|\\ V  V /| | | | | (_) | (_| | (_| |  __/| |   "
+print "    |____/ \\___/ \\_/\\_/ |_| |_|_|\\___/ \\__,_|\\__,_|\\___||_| "
+print "                                                            -by dspec13\n"
+
 
 # Create Directory to be imported into Kindle Comic Converter
 try:
@@ -21,8 +37,9 @@ except OSError as e:
 
 print "\nDownloading has commenced:"
 
-# For pages 0 through 1714 of the Manga
-for x in range(0, 1715):
+# For Every Page of the Manga
+currentNumberOfPagesPublished = 1714
+for x in range(0, currentNumberOfPagesPublished + 1):
 
         # Page 9 & 21 are non-existent (pages 8 and 20 are horizontal)
         # Pages 1000, 1190, 1232, & 1691 do not follow the same pattern & are hardcoded to download.
@@ -67,3 +84,44 @@ for x in range(0, 1715):
                 urlretrieve("https://www.dragonball-multiverse.com/image.php?comic=page&num=1232&lg=ono&ext=jpg&pw=0611d55d650fdc3fccc397fd24f414db", filename="Dragon Ball Multiverse/1232.png")
         elif x == 1691:
                 urlretrieve("https://www.dragonball-multiverse.com/image.php?comic=page&num=1691&lg=ono&ext=png&pw=d99d2823a5e87d6c128abb995758457a", filename="Dragon Ball Multiverse/1691.png")
+
+
+
+
+print "            ___     -._"
+print "            `-. \"\"\"--._ `-."
+print "               `.      \"-. `."
+print " _____           `.       `. \\       C H I B I - G O K U"
+print "`-.   \"\"\"---.._    \\        `."
+print "   `-.         \"-.  \\         `\\"
+print "      `.          `-.\\          \\_.-\"\"\"\"\"\"\"\"--._"
+print "        `.           `                          \"-."
+print "          `.                                       `.    __....-------..."
+print "--..._      \\                                       `--\"\"\"\"\"\"\"\"\"\"\"---..._"
+print "__...._\"_-.. \\                       _,                             _..-\"\""
+print "`-.      \"\"\"--`           /       ,-'/|     ,                   _.-\""
+print "   `-.                 , /|     ,'  / |   ,'|    ,|        _..-\""
+print "      `.              /|| |    /   / |  ,'  |  ,' /        ----\"\"\"\"\"\"\"\"\"_`-"
+print "        `.            ( \\  \\      |  | /   | ,'  //                 _.-\""
+print "          `.        .'-\\/'""\\ |  '  | /  .-/'\"`\' //            _.-\""
+print "    /'`.____`-.  ,'\"\\  ''''?-.V`.   |/ .'..-P''''  /\"`.     _.-\""
+print "   '(   `.-._\"\"  ||(?|    /'   >.\\  ' /.<   `\\    |P)||_..-\"___.....---"
+print "     `.   `. \"-._ \\ ('   |     `8      8'     |   `) /\"\"\"\"\"    _\".\"\""
+print "       `.   `.   `.`.b|   `.__            __.'   |d.'  __...--\"\""
+print "         `.   `.   \".`-  .---      ,-.     ---.  -'.-\"\""
+print "           `.   `.   \"\"|      -._      _.-      |\"\""
+print "             `.  .-\"`.  `.       `\"\"\"\"'       ,'"
+print "               `/     `.. \"\"--..__    __..--\"\""
+print "                `.      /7.--|    \"\"\"\"    |--.__"
+print "                  ..--\"| (  /'            `\\  ` \"\"--.."
+print "               .-\"      \\\\  |\"\"--.    .--\"\"|          \"-."
+print "              <.         \\\\  `.    -.    ,'       ,'     >"
+print "             (P'`.        `%,  `.      ,'        /,' .-\"'?)"
+print "             P    `. \\      `%,  `.  ,'         /' .'     "
+print "            | --\"  _\\||       `%,  `'          /.-'   .    )"
+print "            |       `-.\"\"--..   `%..--\"\"\"\\\\\"--.'       \"-  |"
+print " _Seal_     \\          `.  .--\"\"\"  \"\\.\\.\\ \\\\.'       )     |"
+
+
+print "\n\nDownloads Complete! Enjoy Reading!"
+
