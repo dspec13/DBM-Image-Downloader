@@ -3,7 +3,7 @@ This is a short python script to download all of the pages of [Dragon Ball Multi
 This is mainly intended to gather the pages of the webcomic for offline viewing on e-readers.
 
 ## If You Are Reading This In The Future...
-... I am probably dead (Just Kidding!). But I doubt that I'll be updating this any further. As of now there are 1714 pages published in Dragonball Multiverse. If more pages have been published since the time I wrote this and now, just open the Downloader script with any text editor & change the value of the variable _currentNumberOfPagesPublished_ to the current number of pages published. Enjoy Reading!
+... I am probably dead (Just Kidding!). But I'm only likely to update this script VERY infrequently, as I tend to read DBM only once a year or two, just to give me a large ammount of content to consume at once. As the script currently stands it is fully functional up to Page 2334. If more pages have been published since the time I wrote this and now, just open the Downloader script with any text editor & change the value of the variable _currentNumberOfPagesPublished_ to the current number of pages published. Enjoy Reading!
 
 ## Notes & Instructions
 <ul>
