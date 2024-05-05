@@ -1,5 +1,5 @@
 # DBM-Image-Downloader
-This is a short python script to download all of the pages of [Dragon Ball Multiverse](https://www.dragonball-multiverse.com/) (as of 5th of May 2024)
+This is a short python script to download all of the pages of [Dragon Ball Multiverse](https://www.dragonball-multiverse.com/) (as of 4th of May 2024)
 This is mainly intended to gather the pages of the webcomic for offline viewing on e-readers.
 
 ## If You Are Reading This In The Future...
